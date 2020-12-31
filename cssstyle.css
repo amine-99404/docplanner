@@ -1,0 +1,435 @@
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+img {
+  border: 0;
+}
+.main-nav {
+  position: relative;
+  justify-content: space-between;
+}
+.main-menu {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(0, 179, 155);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.main-header {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: space-between;
+   position: fixed;
+   opacity: 1; 
+   background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+.main-menu li:hover,
+a:hover {
+  color: #00bfa5;
+}
+.dropdown {
+  position: relative;
+}
+.logo-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width:2%;
+ 
+}
+.lead h1 {
+  text-align: center;
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.lead h1 {
+  margin: 1em 0;
+  margin-top: 1em;
+  margin-right: 0px;
+  margin-bottom: 1em;
+  margin-left: 0px;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.servis-section {
+  border: 1px solid black;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: #00ccb1;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.8px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color:#508fe2 ;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.8px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  
+}
+.flex-container3 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: #323c48;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.8px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.section1 {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.paragraph {
+  width: 40%;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(116, 116, 116);
+}
+.brands{
+  
+display:flex;
+justify-content: space-around;
+border: 1px solid black;
+width: 80%;
+margin: auto;
+
+}
+.pargraph2{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 33.8px;
+    color: rgb(0, 179, 155);
+    width: 30%;
+}
+.logo{
+    width: 22%;
+}
+.brands_logo{
+    width: 60%;
+display:flex;
+flex-wrap: wrap;
+margin-top: 50px;
+}
+.section5{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  background-color:#D6F5F5;
+  margin-top: 63px;
+  height:610px;
+  background-image: url('https://www.docplanner.com/img/logo.png' );
+  background-repeat: no-repeat;
+  background-position: bottom -100px left 50px;
+  background-size :30%;
+  position: relative;
+}
+.div1{
+  width: 417px;
+  height: 150px;
+  margin-left: 187px;
+  margin-top: 80px
+}
+.titre5{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 34px;
+font-weight: 300;
+line-height: 44.2px;
+color: rgb(0, 179, 155);
+
+}
+.parag7{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: rgb(116, 116, 116)
+}
+.div2{
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 485px;
+  height: 555px;
+}
+.div2-1{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 526px;
+}
+.div2-1-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 228px;
+  height: 252px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 48px;
+  margin-bottom: 10px;
+}
+.h2-1-1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 31.2px;
+  color: rgb(0, 179, 155);
+  margin-left: 49px;
+  margin-right: 47px;
+  width: 131px;
+  height: 54px;
+  text-align: center;
+  } 
+  .p2-1-1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.9px;
+  color: rgb(116, 116, 116);
+  width: 190px;
+  height: 44px;
+  
+  }
+  .div2-1-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 228px;
+  height: 253px;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 36px;
+  margin-top: 10px;
+  margin-bottom: 31px;  
+  }
+  .h2-1-2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    margin-left: 49px;
+    margin-right: 47px;
+    width: 185px;
+    height: 58px;  
+    text-align: center;
+    }
+    .p2-1-2{
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 16.9px;
+      color: rgb(116, 116, 116);
+      width: 190px;
+      height: 44px;
+      margin-left: 58px;
+      }
+      .div2-2{
+      display: flex;
+      flex-direction: column;
+      width: 230px;
+      height: 526px; 
+      }
+      .div2-2-1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 228px;
+      height: 252px;
+      background-color: white;
+      border-radius: 10px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      padding-top: 53px;
+      
+      }
+      .h2-2-1{
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 31.2px;
+      color: rgb(0, 179, 155);
+      width: 149px;
+      height: 51px;
+      text-align: center;
+      }
+      .p2-2-1{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16.9px;
+        color: rgb(116, 116, 116);  
+        }
+        .div2-2-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 228px;
+        height: 252px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 59px;
+        padding-top: 53px;
+        padding-bottom: 20px
+        }
+        .h2-2-2{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 31.2px;
+        color: rgb(0, 179, 155);
+        width: 149px;
+        height: 51px;  
+        text-align: center;
+        }
+        .p2-2-2{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16.9px;
+        color: rgb(116, 116, 116); 
+        }
+                        
+.world{
+display:flex;
+background-color: #d7f6f6;
+
+}
+.achievement{
+  display: flex;
+flex-direction: row;
+background-color:#d7f6f6 ;
+}
+.improvment{
+text-align: center;
+}
+.change1{
+font-family:"Work Sans", Arial, sans-serif;
+font-size: 30px;
+font-weight: 300;
+line-height: 39px;
+color: rgb(0, 179, 155);
+justify-content: center;
+}
+.change2{
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(116, 116, 116);
+}
+.citys{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 191px;
+}
+.citys2{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+  
+}
+.citys2:hover{
+  box-shadow:0 4px 8px 0 turquoise;
+}
+.name{
+  display: flex;
+  justify-content: space-between;
+
+}
+.btn-see-opening{
+  border:#8fd7ff;
+  background:blue ;
+  font-family: 'raleway'sans-serif;
+  font-size: 14px;
+  color: white;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 20px;
+
+
+}
+.name p{
+  font-family: Roboto, Arial, sans-serif;
+
+  font-size: 18px;
+  
+  font-weight: 400;
+  
+  line-height: 30px;
+  
+  color: rgb(116, 116, 116);
+}
+.join-us{
+ font-family: "Work Sans", Arial, sans-serif;
+font-size: 20px;
+font-weight: 10;
+line-height: 19px;
+color: rgb(51, 51, 51);
+text-align: center;
+}
+.btn-SEE-ALL-CURRENT-OPENINGS{
+  border:#8fd7ff;
+  background:blue ;
+ border-radius: 8px;
+}
+
+.section__inner{
+  text-align: center;
+  color: rgb(171, 171, 171)
+}
